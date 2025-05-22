@@ -10,6 +10,7 @@
 
 ## GitとGitHubの概念図
 概念図は以下の通りです。リモートリポジトリに該当するのがGitHubになります。ローカルリポジトリとリモートリポジトリ間のやり取りをするプログラムをGitといいます。
+
 ![概念図](https://github.com/kuboctopus/dodge-merge-conflict/blob/sankoda_20250520/.github/steps/img/git01.png "概念図")
 
 
