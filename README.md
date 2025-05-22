@@ -19,7 +19,7 @@ _マージコンフリクトを回避する方法を*VSCode*を用いて学び�
 3. プルリクエストをマージする
 
 > [!NOTE]
-> Git、GitHub初学者は[こちら](https://github.com/kuboctopus/dodge-merge-conflict/for_newbie.md)へ
+> Git、GitHub初学者は[こちら](https://github.com/kuboctopus/dodge-merge-conflict/blob/main/for_newbie.md)へ
 
 
 ## このコースの始め方
