@@ -10,7 +10,7 @@
 
 ## GitとGitHubの概念図
 ## タイトルありの画像を埋め込む
-![概念図](.github/steps/img/git01.png "概念図")
+![概念図](https://github.com/kuboctopus/dodge-merge-conflict/blob/sankoda_20250520/.github/steps/img/git01.png "概念図")
 
 
 
