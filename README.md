@@ -18,10 +18,9 @@ _マージコンフリクトを回避する方法を*VSCode*を用いて学び�
 2. プルリクエストを作成する
 3. プルリクエストをマージする
 
-:::note info
-インフォメーション
-Git、GitHub初学者は[こちら](https://github.com/kuboctopus/dodge-merge-conflict/for_newbie.md)へ
-:::
+> [!NOTE]
+> Git、GitHub初学者は[こちら](https://github.com/kuboctopus/dodge-merge-conflict/blob/main/for_newbie.md)へ
+
 
 ## このコースの始め方
 
@@ -40,6 +39,6 @@ Git、GitHub初学者は[こちら](https://github.com/kuboctopus/dodge-merge-co
 
 1. **Start cource**を**右クリック**し、新しいタブでリンクを開きます。
 2. 新しいタブでリポジトリを作成します。
-   - 個人下にリポジトリを作成してください。（組織下に作成すると課金される可能性があるため）
-   - リポジトリの公開設定はパブリックにしてください。（プライベートだとGitHub Actionsで課金されます）
+   - 個人下にリポジトリを作成してください(組織下に作成すると課金される可能性があるため)
+   - リポジトリの公開設定はパブリックにしてください(プライベートだとGitHub Actionsで課金されます)
 3. 新しいリポジトリが作成されて20秒後にページを更新してください。ステップごとの説明がREADMEに表示されます。
