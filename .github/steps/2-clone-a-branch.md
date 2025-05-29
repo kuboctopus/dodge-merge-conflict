@@ -7,9 +7,7 @@
 
 ### :keyboard: Activity: Create a pull request
 
-今回はVSCodeを使ってローカルにリモートリポジトリのクローンを作成するため、情シスに申請してVSCodeをインストールします。
-
-申請方法は[ここ](https://qtnet4.sharepoint.com/sites/infostrategy/SitePages/%E7%A4%BE%E5%86%85OA%E4%BB%A5%E5%A4%96%E3%81%AE%E6%A5%AD%E5%8B%99%E7%94%A8%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E7%94%B3%E8%AB%8B.aspx)を参照してください。
+今回はVSCodeを使ってローカルにリモートリポジトリのクローンを作成するため、事前にVSCodeをインストールします。
 
 1. VSCodeのインストールが完了したら、GitのExtensionをインストールします。必要に応じて、[GitGraph](URL)や[GitLens](URL)もインストールします。
 2. 次にGitHubの画面で「<>Code」のボタンを押下し、表示されるHTTPSのURLをコピーします(コピーアイコンを押す)。
