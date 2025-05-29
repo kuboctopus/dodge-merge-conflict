@@ -27,7 +27,7 @@ _マージコンフリクトを回避する方法を*VSCode*を用いて学び�
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
   template_owner: 'kuboctopus',
-  template_name: 'dodge-merge-conflict-with-vscode',
+  template_name: 'dodge-merge-conflict',
   owner: '@me',
   name: 'my-resume',
   description: 'My clone repository',
@@ -35,7 +35,7 @@ _マージコンフリクトを回避する方法を*VSCode*を用いて学び�
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=kuboctopus&template_name=dodge-merge-conflict-with-vscode&owner=%40me&name=my-resume&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=kuboctopus&template_name=dodge-merge-conflict&owner=%40me&name=my-resume&description=My+clone+repository&visibility=public)
 
 1. **Start cource**を**右クリック**し、新しいタブでリンクを開きます。
 2. 新しいタブでリポジトリを作成します。
