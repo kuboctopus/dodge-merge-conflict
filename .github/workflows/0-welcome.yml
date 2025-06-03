@@ -55,6 +55,7 @@ jobs:
           fetch-depth: 0 # Let's get all the branches.
 
       - name: Prepare a branch
+          # 以下にmy-resumeブランチを作成する処理を追加
         run: |
           echo "Make sure we are on step 0"
           if [ "$(cat .github/steps/-step.txt)" != 0 ]
