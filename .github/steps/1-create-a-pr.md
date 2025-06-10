@@ -17,9 +17,9 @@ _ようこそ "マージコンフリクトを回避する方法へ"! :wave:_
 ### :keyboard: Activity: プルリクエストの作成
 
 1. 新しいブラウザタブを開き、このタブで指示を読みながら、もう一方のタブで手順を進めてください。
-2. リポジトリの main ブランチにあるファイルに、小さな変更を加えました。
-3. my-resume をヘッドブランチ、main をベースブランチとして設定して、[プルリクエスト](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)を実行してください。プルリクエストのタイトルと本文には Resolving merge conflicts と入力してください。
-4. 約20秒待ってから、このページ(指示に従っているページ)をリフレッシュしてください。バックグラウンドで[GitHub Actions](https://docs.github.com/en/actions)が動作し、次のステップに自動的に更新されます。
+1. リポジトリの main ブランチにあるファイルに、小さな変更を加えました。
+1. my-resume をヘッドブランチ、main をベースブランチとして設定して、[プルリクエスト](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)を実行してください。プルリクエストのタイトルと本文には Resolving merge conflicts と入力してください。
+1. 約20秒待ってから、このページ(指示に従っているページ)をリフレッシュしてください。バックグラウンドで[GitHub Actions](https://docs.github.com/en/actions)が動作し、次のステップに自動的に更新されます。
 
 
 <!-- 元テキスト
