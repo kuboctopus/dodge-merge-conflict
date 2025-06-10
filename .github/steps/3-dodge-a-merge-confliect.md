@@ -15,6 +15,10 @@
 
 ### :keyboard: プルリクエスト
 
+1. GitHubの画面を表示し、「Pull requests」のリンクを押します。
+1. 「Compare & pull request」のアイコンが有効になっていることを確認、押下します。
+1. 画面をスクロールし、修正内容を確認、任意のコメントや説明を入力、「Create pull request」を押下します。
+
 ymlでマージコンフリクトが発生しない処理を書く?
 
 test
