@@ -39,7 +39,7 @@
 ### :keyboard: ブランチの修正
 
 1. 先ずは、VSCodeの画面左下を確認し、選択中のブランチが「my-resume」になっていることを改めて確認します。
-1. アクティビティバーのエクスプローラーが選択され、ブランチのツリーが表示されている箇所でアイコン![新しいファイル...](https://github.com/kuboctopus/dodge-merge-conflict/blob/main/.github/steps/img/git01.png)「新しいファイル...」を押下し、ファイル名「references.md」を作成します。 references.md に任意の文字列を入力し、保存します。
+1. アクティビティバーのエクスプローラーが選択され、ブランチのツリーが表示されている箇所のアイコン![新しいファイル...](https://github.com/kuboctopus/dodge-merge-conflict/blob/main/.github/steps/img/add_file01.png)「新しいファイル...」を押下し、ファイル名「references.md」を作成します。 references.md に任意の文字列を入力し、保存します。
 1. VSCodeの画面左側のツールバーの「ソースの管理」を押下し、変更メッセージに任意の文字列を入力、「コミット」ボタンを押下します。
 1. ステージの確認メッセージが表示された場合は、「はい」を押します。更に、ボタンのテキストが「変更の同期」に変更されたら、押下します。
 
