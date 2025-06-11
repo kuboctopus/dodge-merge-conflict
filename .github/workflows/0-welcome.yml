@@ -54,8 +54,7 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches.
 
-      - name: Prepare a branch
-          # 以下にmy-resumeブランチを作成する処理を追加
+      - name: Prepare a branch         
         run: |
           echo "Make sure we are on step 0"
           if [ "$(cat .github/steps/-step.txt)" != 0 ]
@@ -63,7 +62,12 @@ jobs:
             echo "Current step is not 0"
             exit 0
           fi
-          # mainブランチを修正する処理に変更
+          # my-resume ブランチを作成
+          echo "Create a new branch"
+          git checkout -b my-resume
+          git push origin my-resume
+
+          # main ブランチを修正
           echo "Modify main branch"
           BRANCH=main
           git checkout -b $BRANCH
