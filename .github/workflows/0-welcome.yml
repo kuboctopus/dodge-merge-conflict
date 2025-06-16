@@ -81,7 +81,7 @@ jobs:
           git commit --message="Update resume.md in main branch"
 
           echo "Push"
-          git push origin my-resume
+          git push --set-upstream origin my-resume
           git push --set-upstream origin $BRANCH
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
