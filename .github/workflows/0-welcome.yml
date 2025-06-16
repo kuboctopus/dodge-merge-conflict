@@ -65,12 +65,11 @@ jobs:
           # my-resume ブランチを作成
           echo "Create a new branch"
           git checkout -b my-resume
-          git push origin my-resume
 
           # main ブランチを修正
           echo "Modify main branch"
           BRANCH=main
-          git checkout -b $BRANCH
+          git checkout $BRANCH
 
           echo "Update resume.md"
           sed -i.bak 's/Experience/Job History/' resume.md 
@@ -82,6 +81,7 @@ jobs:
           git commit --message="Update resume.md in main branch"
 
           echo "Push"
+          git push --set-upstream origin my-resume
           git push --set-upstream origin $BRANCH
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
