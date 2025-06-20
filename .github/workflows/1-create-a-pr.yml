@@ -62,15 +62,15 @@ jobs:
             exit 0
           fi
 
-          echo "Manually update step in my-resume to match step in main branch"
-          git checkout my-resume
-          git config user.name github-actions[bot]
-          git config user.email github-actions[bot]@users.noreply.github.com
-          sed -i.bak 's/1/2/' .github/steps/-step.txt
-          git add .github/steps/-step.txt
-          git commit --message="Update step in my-resume"
-          echo "Push"
-          git push origin my-resume
+          # echo "Manually update step in my-resume to match step in main branch"
+          # git checkout my-resume
+          # git config user.name github-actions[bot]
+          # git config user.email github-actions[bot]@users.noreply.github.com
+          # sed -i.bak 's/1/2/' .github/steps/-step.txt
+          # git add .github/steps/-step.txt
+          # git commit --message="Update step in my-resume"
+          # echo "Push"
+          # git push origin my-resume
 
           echo "Create a merge conflict in main"
           git checkout main
