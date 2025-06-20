@@ -73,10 +73,10 @@ jobs:
           # git push origin my-resume
 
           echo "Create a merge conflict in main"
-          git checkout main
+          git checkout my-resume
           sed -i.bak 's/Experience/Jobs/' resume.md
           git add resume.md
-          git commit --message="Update resume.md in main"
+          git commit --message="Update resume.md in my-resume"
 
           echo "Push"
           git push origin main
