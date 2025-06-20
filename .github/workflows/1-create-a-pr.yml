@@ -53,33 +53,33 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches.
 
-      - name: Prepare a merge conflict
-        run: |
-          echo "Make sure we are on step 1"
-          if [ "$(cat .github/steps/-step.txt)" != 1 ]
-          then
-            echo "Current step is not 1"
-            exit 0
-          fi
+      # - name: Prepare a merge conflict
+      #   run: |
+      #     echo "Make sure we are on step 1"
+      #     if [ "$(cat .github/steps/-step.txt)" != 1 ]
+      #     then
+      #       echo "Current step is not 1"
+      #       exit 0
+      #     fi
 
-          # echo "Manually update step in my-resume to match step in main branch"
-          # git checkout my-resume
-          git config user.name github-actions[bot]
-          git config user.email github-actions[bot]@users.noreply.github.com
-          # sed -i.bak 's/1/2/' .github/steps/-step.txt
-          # git add .github/steps/-step.txt
-          # git commit --message="Update step in my-resume"
-          # echo "Push"
-          # git push origin my-resume
+      #     echo "Manually update step in my-resume to match step in main branch"
+      #     git checkout my-resume
+      #     git config user.name github-actions[bot]
+      #     git config user.email github-actions[bot]@users.noreply.github.com
+      #     sed -i.bak 's/1/2/' .github/steps/-step.txt
+      #     git add .github/steps/-step.txt
+      #     git commit --message="Update step in my-resume"
+      #     echo "Push"
+      #     git push origin my-resume
 
-          echo "Create a merge conflict in main"
-          git checkout my-resume
-          sed -i.bak 's/Experience/Jobs/' resume.md
-          git add resume.md
-          git commit --message="Update resume.md in my-resume"
-
-          echo "Push"
-          git push origin my-resume
+      #     echo "Create a merge conflict in main"
+      #     git checkout main
+      #     sed -i.bak 's/Experience/Jobs/' resume.md
+      #     git add resume.md
+      #     git commit --message="Update resume.md in main"
+          
+      #     echo "Push"
+      #     git push origin my-resume
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
