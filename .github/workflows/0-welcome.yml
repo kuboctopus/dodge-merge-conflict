@@ -72,8 +72,8 @@ jobs:
           git checkout $BRANCH
 
           echo "Update resume.md"
-          sed -i.bak 's/Experience/Job History/' resume.md 
-
+          sed -i 's/Experience/Jobs/' resume.md 
+          
           echo "Make a commit"
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
