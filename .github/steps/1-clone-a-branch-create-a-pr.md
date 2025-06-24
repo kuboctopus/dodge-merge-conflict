@@ -7,7 +7,7 @@
 
 今回はVSCodeを使ってローカルにリモートリポジトリのクローンを作成するため、事前に[VSCodeをインストール](https://azure.microsoft.com/ja-jp/products/visual-studio-code)します(インストール済みの場合はスキップ)。
 
-1. VSCodeのインストールが完了したら、[Git](https://git-scm.com/)をインストールします。VSCodeの拡張機能である[GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)、[GitGraph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)、[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)もインストールします。
+1. VSCodeのインストールが完了したら、[Git](https://git-scm.com/)をインストールします。VSCodeの拡張機能である[Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)、[GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)、[GitGraph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)、[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)もインストールします。
 1. 次にGitHubの画面で`<>Code`のボタンを押下し、表示されるHTTPSのURLをコピーします(コピーアイコンを押す)。
 1. VSCode画面左のアクティビティバー`「リモートエクスプローラー」`を押下し、リモートリポジトリの追加`+`を押します。
 1. 上部の検索バーに`「GitHubからリポジトリを開く」`を押し、先ほどコピーしたURLを入力し実行します。VSCode上にリモートリポジトリが表示されます。
