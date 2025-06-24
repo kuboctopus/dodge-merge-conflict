@@ -12,7 +12,7 @@
 1. VSCode画面左のアクティビティバー`「リモートエクスプローラー」`を押下し、リモートリポジトリの追加`+`を押します。
 1. 上部の検索バーに`「GitHubからリポジトリを開く」`を押し、先ほどコピーしたURLを入力し実行します。VSCode上にリモートリポジトリが表示されます。
 1. デフォルトで`main`ブランチが選択されています。後の手順のためにブランチの`resume.md`の内容をメモします(notepadなどでローカルにコピー)。
-1. [最初の手順](https://github.com/kuboctopus/dodge-merge-conflict/blob/main/README.md)で作成した自分専用の`my-resume`ブランチに切り替える必要があります。VSCodeの画面の左下に表示される`main`を押下し、`my-resume`を選択します。
+1. [最初の手順](https://github.com/kuboctopus/dodge-merge-conflict/blob/main/README.md)で作成した`my-resume`ブランチに切り替える必要があります。VSCodeの画面の左下に表示される`main`を押下し、`my-resume`を選択します。
 1. `my-resume`ブランチの`resume.md`の内容を確認し、先の手順でメモした内容(5行目)と異なることを確認します。このまま`my-resume`ブランチを`main`ブランチへマージするとマージコンフリクトが発生します。
 
 **_マージコンフリクトって何_?**: **マージコンフリクト** は、2つの異なるブランチで同じファイルの同じ箇所が修正されている場合に発生します。
