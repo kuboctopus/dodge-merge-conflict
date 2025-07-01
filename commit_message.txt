@@ -1,0 +1,1 @@
+Fix typos in README.md and for_newbie.md
