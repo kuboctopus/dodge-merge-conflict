@@ -10,7 +10,7 @@ _マージコンフリクトを回避する方法を*VSCode*を用いて学び�
 - 学習内容：VSCodeを利用したマージコンフリクトの回避方法について。
 - 作成するもの: マークダウンで書かれた要約ファイル`resume.md`を使用します。
 - 前提条件：[resolve-merge-conflict-with-vscode](https://github.com/kuboctopus/resolve-merge-conflict-with-vscode)の内容を理解していることをお勧めします
-- 所用時間: このコースの所要時間は 30 分未満です。
+- 所要時間: このコースの所要時間は 30 分未満です。
 
 このコースではVSCodeを利用して以下を学びます:
 
@@ -37,7 +37,7 @@ _マージコンフリクトを回避する方法を*VSCode*を用いて学び�
 
 [![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=kuboctopus&template_name=dodge-merge-conflict&owner=%40me&name=my-resume&description=My+clone+repository&visibility=public)
 
-1. **Start cource**を**右クリック**し、新しいタブでリンクを開きます。
+1. **Start course**を**右クリック**し、新しいタブでリンクを開きます。
 2. 新しいタブでリポジトリを作成します。
    - 個人下にリポジトリを作成してください(組織下に作成すると課金される可能性があるため)
    - リポジトリの公開設定はパブリックにしてください(プライベートだとGitHub Actionsで課金されます)
